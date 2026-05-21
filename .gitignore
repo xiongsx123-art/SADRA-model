@@ -1,0 +1,35 @@
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+rsconnect/
+
+# Data (raw CSVs should be provided by user)
+data/*.csv
+data/*.rds
+
+# Output (generated files)
+output/*.rds
+output/*.csv
+output/*.txt
+
+# Figures (generated)
+figures/*.pdf
+figures/*.png
+figures/report_*
+
+# Reports (knitted)
+reports/*.html
+
+# R package check
+*.Rcheck/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.Renviron
